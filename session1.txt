@@ -1,0 +1,82 @@
+Computational Physics
+
+basenya physics itu measurement/pengukuran -> terus newtonn
+batasan Newtonn rules itu dari atom sampe planet, kalo lebih kecil dari atom (contoh: quantum 
+physics) maka udah ngga berlaku.
+
+physical server -> bare metal
+
+Di physics ada:
+- mechanical (kinematika)
+* electricity 
+* magnetics
+goalsnya: electro magnetic (EM) / sense of electrical appliance irl (rata2: 85)
+
+computational -> circuit modelling pake python power electron/?
+yang bakal ribet: instalasi python distribution something, ms excel buat bikin circuit, 
+                  jalanin web server local
+
+== MATERI == (REVIEW LAGI LIHAT PPT!)
+
+semua fisika akan selalu berangkat dari energy (U).
+ada 4 yang bisa dipelajari dari energy:
+1)
+2)
+3) conservation of energy
+4) 
+
+force/gaya (F vector, satuannya newtonn) <- usaha/work (W vector, satuannya joule) <- energy (U)
+                                                            			         v (panah)
+                                                                             power (du/dt) -> perubahan energi dalam satuan waktu
+									     nanti di power ada watt, horse power/hp (746 watt)
+
+Newton I: semua benda kalo ngga diapa-apain itu diam / inersia (sigma F = 0)
+Newton II: benda akan bergerak kalo ada energi yang lebih besar yang gerakin (sigma F = m x a)
+Newton III: 
+
+#Electric Charge (Muatan Listrik)
+
+Ada 2 macam muatan listrik -> positif (ketambahan elektron/proton) dan negatif (kehilangan elektron/elektron)
+satuan muatan listrik: coulombs (C)
+sifatnya:
+kalo sama akan tolak-menolak (repel)
+kalo beda akan tarik-menarik (attract)
+
+e = 1,6 x 10^-19 C
+1C = 1/1,6 x 10^19 = 1 x 10^18 e  
+satu benda minimal memuat 1 elektron, misal suatu benda muatan listriknya 1C berarti
+jumlah elektronnya yang di atas tadi
+
+Conductors -> benda yang elektronnya bisa bergerak bebas
+Nonconductors (insulators) -> kebalikannya
+Semiconductors -> di tengah-tengah
+Superconductors -> perfect conductors, hampir gaada hambatan (karena dihilangkan)
+
+Induksi adalah proses memengaruhi suatu benda yang netral menjadi bermuatan (posisi proton
+dan elektron berada di kutub-kutub tertentu). Contoh: charging
+
+E vector -> medan bermuatan listrik
+W vector dalam listrik adalah usaha mendekatkan kedua medan yang jaraknya infinit
+F vector adalah gaya yang terbentuk akibat interaksi dua medan bermuatan
+
+F vector = (k x (q0 x q1 / r^2)) x r vector
+k = 8,99 x 10^9 
+r = jarak (r vector jujur gatau buat apa)
+
+step ngerjain soal fisika:
+1) jabarkan gaya berdasarkan sumbu
+2) selesaikan dnegan operasi aljabar
+3) resultan hasil (besar dan arah)
+*lihat contoh soal di ppt
+
+#Electrical Field (satuannya N/C)
+
+E vector = F vector / q0 (harusnya ada sigmanya, F vector juga)
+*untuk mengetahui pengaruh terhadap medan lain jika medan itu sendiri sedang diam
+
+electrical field lines -> garis medan
+capasitor -> pemerangkap energi
+
+//RUMUS
+E vector = k x (q/r^2) -> tinggal satu q sisanya karena q0 udah kecoret
+
